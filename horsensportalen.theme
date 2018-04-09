@@ -1,0 +1,86 @@
+<?php
+
+/**
+ * Implements hook_preprocess_page().
+ */
+function horsensportalen_preprocess_page(&$variables) {
+
+  // Change the sitelogo from png to .svg
+  $variables['logopath'] = '/' . $variables['directory'] . '/logo.svg';
+
+}
+
+/**
+ * Implements hook_preprocess_block().
+ */
+function horsensportalen_preprocess_block(&$variables) {
+  // Set the site_name variable for templates
+  $variables['site_name'] = \Drupal::config('system.site')->get('name');
+
+  // Add variable for region to the block variables
+  if (isset($variables["elements"]["#id"])) {
+          $block_id = $variables["elements"]["#id"];
+          $block = \Drupal\block\Entity\Block::load($block_id);
+
+          if ($block) {
+              $variables["content"]["#attributes"]["region"] = $block->getRegion();
+          }
+      }
+}
+
+/**
+ * Implements template_preprocess_input().
+ */
+function horsensportalen_preprocess_input(&$variables) {
+  if(isset($variables['element']['#type']) AND $variables['element']['#type'] != 'submit') {
+     $variables['attributes']['class'][] = 'form-control';
+  }
+  //kint($variables);
+}
+
+/**
+ * Implements template_preprocess_form_element().
+ */
+function horsensportalen_preprocess_form_element(&$variables) {
+     $variables['attributes']['class'][] = 'col';
+}
+
+
+
+/**
+ * Implements hook_form_alter().
+ */
+function horsensportalen_form_search_api_page_block_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+  //Input field
+  $form['keys']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
+  $form['keys']['#attributes']['class'] = array('p-3 border-0');
+
+  //Submit button
+  $form['actions']['#prefix'] = '<button type="submit" class="">';
+  $form['actions']['#suffix'] = '</button>';
+  $form['actions']['submit']['#value'] = t('');
+  $form['actions']['submit']['#markup'] = '<i class="fas fa-search fa-lg"></i>';
+  $form['actions']['submit']['#attributes']['class'] = array('btn','btn-primary', 'border-0', 'p-3');
+  $form['actions']['#weight'] = 10;
+
+ // kint($form);
+}
+
+
+/**
+ * Implements hook_theme_suggestions_alter
+ */
+function horsensportalen_theme_suggestions_alter(array &$suggestions, array $variables)
+{
+
+    if (isset($variables['element']) && isset($variables['element']['#type']) && $variables['element']['#type'] == 'form') {
+        $original_theme_hook = $variables['theme_hook_original'];
+
+        $suggestions[] = $original_theme_hook . '__' . str_replace('-', '_', $variables['element']['#id']);
+    }
+
+    return $suggestions;
+
+}
+

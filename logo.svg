@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="352px" height="52px" viewBox="0 0 352 52" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-family="Arial-Black, Arial Black" font-weight="700">
+        <g id="logo" transform="translate(0.000000, -13.000000)" fill="#000000">
+            <text id="TSGP-BaseTheme" font-size="36">
+                <tspan x="0.498046875" y="40">TSGP BaseTheme</tspan>
+            </text>
+            <text id="Drupal-8-theme-based" font-size="16">
+                <tspan x="13.328125" y="61">Drupal 8 theme based on Bootstrap 4</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

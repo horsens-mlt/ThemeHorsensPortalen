@@ -1,0 +1,36 @@
+
+header#top {
+	overflow: hidden;
+
+
+/*  background-image: url('../img/horsens.jpg'); */
+  background-size: 100% auto;
+  background-position: center center;
+  background-color: $brand-secondary;
+}
+
+
+#main-navigation {
+  background-color: #fff;
+}
+
+section.container {
+}
+
+#content_bottom {
+
+}
+
+footer#pagefooter {
+	clear: both;
+	position: relative;
+	min-height: 300px;
+	margin-top: 5px;
+	padding: 10px 0;
+	overflow: visible;
+	background-color: $brand-secondary;
+
+  * {
+    color: #fff;
+  }
+}

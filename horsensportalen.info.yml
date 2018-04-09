@@ -1,0 +1,19 @@
+name: HorsensPortalen
+type: theme
+base theme: classy
+description: Custom theme based on Bootstrap 4 Framework
+core: 8.x
+
+libraries:
+- horsensportalen/bootstrap-cdn
+- horsensportalen/xfontawesome-cdn
+- horsensportalen/global-styling
+
+regions:
+ navigation: 'Navigation'
+ header: 'Header'
+ breadcrumb: 'breadcrumb'
+ sidebar: 'Sidebar'
+ content: 'Content'
+ content_bottom: 'Content bottom'
+ footer: 'Footer'

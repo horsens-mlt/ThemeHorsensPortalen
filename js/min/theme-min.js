@@ -1,0 +1,1 @@
+!function($){$("body").scrollspy({target:"#mainNav",offset:54}),$(window).scroll(function(){$("#mainNav").offset().top>300?$("#mainNav").addClass("navbar-shrink"):$("#mainNav").removeClass("navbar-shrink")})}(jQuery);

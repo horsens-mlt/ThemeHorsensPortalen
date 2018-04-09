@@ -1,0 +1,145 @@
+{#
+/**
+ * @file
+ * Theme override to display a menu.
+ *
+ * Available variables:
+ * - menu_name: The machine name of the menu.
+ * - items: A nested list of menu items. Each menu item contains:
+ *   - attributes: HTML attributes for the menu item.
+ *   - below: The menu item child items.
+ *   - title: The menu link title.
+ *   - url: The menu link url, instance of \Drupal\Core\Url
+ *   - localized_options: Menu link localized options.
+ *   - is_expanded: TRUE if the link has visible children within the current
+ *     menu tree.
+ *   - is_collapsed: TRUE if the link has children within the current menu tree
+ *     that are not currently visible.
+ *   - in_active_trail: TRUE if the link is in the active trail.
+ */
+#}
+{% import _self as menus %}
+
+
+
+{#
+  We call a macro which calls itself to render the full tree.
+  @see http://twig.sensiolabs.org/doc/tags/macro.html
+#}
+
+
+{{ menus.menu_links(items, attributes, 0) }}
+
+
+{% macro menu_links(items, attributes, menu_level) %}
+  {% import _self as menus %}
+  {% if items %}
+
+    {% if menu_level == 0 %}
+      <ul{{ attributes.addClass('navbar-nav ml-auto') }}>
+    {% else %}
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown" role="menu">
+    {% endif %}
+
+    {% for item in items %}
+      {%
+        set classes = [
+          menu_level == 0 ? 'nav-item',
+          menu_level == 0 and item.is_expanded ? 'dropdown',
+          item.is_collapsed ? '',
+          item.in_active_trail ? 'active',
+          menu_level > 0 and item.is_expanded ? 'dropdown-submenu',
+          menu_level > 0 and item.is_expanded == FALSE ? 'dropdown-item',
+        ]
+      %}
+      <li{{ item.attributes.addClass(classes) }}>
+
+      {% set link_attributes = create_attribute() %}
+
+      {%
+        set link_classes = [
+          menu_level == 0 ? 'nav-link',
+          item.is_expanded and menu_level == 0 ? 'dropdown-toggle',
+          item.is_expanded and menu_level > 0 ? 'dropdown-item',
+          item.is_collapsed ? '',
+        ]
+      %}
+      {% if menu_level == 0 %}
+      {% set link_attributes = item.is_expanded ? link_attributes.setAttribute('id','dropdown') : link_attributes %}
+      {% set link_attributes = item.is_expanded ? link_attributes.setAttribute('role','button') : link_attributes %}
+      {% set link_attributes = item.is_expanded ? link_attributes.setAttribute('data-toggle','dropdown') : link_attributes %}
+      {% set link_attributes = item.is_expanded ? link_attributes.setAttribute('aria-haspopup', 'true') : link_attributes %}
+      {% set link_attributes = item.is_expanded ? link_attributes.setAttribute('aria-expanded','false') : link_attributes %}
+      {% endif %}
+
+        {{ link( item.title, item.url, link_attributes.addClass(link_classes)) }}
+        {% if item.below %}
+          {{ menus.menu_links(item.below, attributes, menu_level + 1) }}
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+{% endmacro %}
+
+
+
+<!--
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu">
+                      <li class="dropdown-item"><a href="#">Some action</a></li>
+                      <li class="dropdown-item"><a href="#">Some other action</a></li>
+                      <li class="dropdown-divider"></li>
+                      <li class="dropdown-submenu">
+                        <a  class="dropdown-item" tabindex="-1" href="#">Hover me for more options</a>
+                        <ul class="dropdown-menu">
+                          <li class="dropdown-item"><a tabindex="-1" href="#">Second level</a></li>
+                          <li class="dropdown-submenu">
+                            <a class="dropdown-item" href="#">Even More..</a>
+                            <ul class="dropdown-menu">
+                                <li class="dropdown-item"><a href="#">3rd level</a></li>
+                                  <li class="dropdown-submenu"><a class="dropdown-item" href="#">another level</a>
+                                  <ul class="dropdown-menu">
+                                      <li class="dropdown-item"><a href="#">4th level</a></li>
+                                      <li class="dropdown-item"><a href="#">4th level</a></li>
+                                      <li class="dropdown-item"><a href="#">4th level</a></li>
+                                  </ul>
+                                </li>
+                                  <li class="dropdown-item"><a href="#">3rd level</a></li>
+                            </ul>
+                          </li>
+                          <li class="dropdown-item"><a href="#">Second level</a></li>
+                          <li class="dropdown-item"><a href="#">Second level</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+-->

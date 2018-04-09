@@ -1,0 +1,45 @@
+/*=============================
+=            Forms            =
+=============================*/
+
+.form-control,.form-control-lg {
+   border-radius: 0px;
+}
+
+select {
+   padding-right: 50px;
+}
+
+::-webkit-input-placeholder {
+   font-family: $font-family-base;
+   font-weight: 300;
+   font-size: 16px;
+   color: #666666;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   font-family: $font-family-base;
+   font-weight: 300;
+   font-size: 16px;
+   color: #666666;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   font-family: $font-family-base;
+   font-weight: 300;
+   font-size: 16px;
+   color: #666666;
+}
+
+:-ms-input-placeholder {
+   font-family: $font-family-base;
+   font-weight: 300;
+   font-size: 16px;
+   color: #666666;
+}
+
+input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+/*-----  End of Forms  ------*/
