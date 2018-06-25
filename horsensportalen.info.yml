@@ -1,8 +1,8 @@
-name: HorsensPortalen
-type: theme
-base theme: classy
-description: Custom theme based on Bootstrap 4 Framework
-core: 8.x
+name: 'HorsensPortalen'
+type: 'theme'
+base theme: 'classy'
+description: 'Custom theme based on Bootstrap 4 Framework'
+core: '8.x'
 
 libraries:
 - horsensportalen/bootstrap-cdn
@@ -17,3 +17,6 @@ regions:
  content: 'Content'
  content_bottom: 'Content bottom'
  footer: 'Footer'
+
+version: '8.x-1.01'
+project: 'HorsensPortalen'
