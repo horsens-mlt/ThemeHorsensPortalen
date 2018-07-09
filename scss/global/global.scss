@@ -53,6 +53,14 @@ input[type="search"] {
    box-sizing: border-box;
 }
 
+hr {
+   //border-top: 1px solid rgba(0, 0, 0, 0.5);
+   border-top: 1px solid #2b2f61;
+   border-bottom: 0;
+   margin-top: 20px;
+   margin-bottom: 20px;
+}
+
 
 /*-----   scroll to top -----*/
 #toTop {

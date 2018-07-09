@@ -7,7 +7,7 @@
 		"uuidString": "A9641477-FD2C-4174-A486-2C269FEFBEAB"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/css\/animate.css": {
 		"aP": 1,
@@ -56,6 +56,634 @@
 		"oAP": "\/favicon.ico",
 		"oF": 0
 		},
+	"\/favicons\/android\/mipmap-hdpi\/ic_launcher.png": {
+		"ft": 32768,
+		"iS": 1717,
+		"oA": 0,
+		"oAP": "\/favicons\/android\/mipmap-hdpi\/ic_launcher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/android\/mipmap-ldpi\/ic_launcher.png": {
+		"ft": 32768,
+		"iS": 1014,
+		"oA": 0,
+		"oAP": "\/favicons\/android\/mipmap-ldpi\/ic_launcher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/android\/mipmap-mdpi\/ic_launcher.png": {
+		"ft": 32768,
+		"iS": 1231,
+		"oA": 0,
+		"oAP": "\/favicons\/android\/mipmap-mdpi\/ic_launcher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/android\/mipmap-xhdpi\/ic_launcher.png": {
+		"ft": 32768,
+		"iS": 2224,
+		"oA": 0,
+		"oAP": "\/favicons\/android\/mipmap-xhdpi\/ic_launcher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/android\/mipmap-xxhdpi\/ic_launcher.png": {
+		"ft": 32768,
+		"iS": 3243,
+		"oA": 0,
+		"oAP": "\/favicons\/android\/mipmap-xxhdpi\/ic_launcher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/android\/mipmap-xxxhdpi\/ic_launcher.png": {
+		"ft": 32768,
+		"iS": 4499,
+		"oA": 0,
+		"oAP": "\/favicons\/android\/mipmap-xxxhdpi\/ic_launcher.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/android\/playstore-icon.png": {
+		"ft": 32768,
+		"iS": 16907,
+		"oA": 0,
+		"oAP": "\/favicons\/android\/playstore-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-27x20@1x.png": {
+		"ft": 32768,
+		"iS": 1192,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-27x20@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-27x20@2x.png": {
+		"ft": 32768,
+		"iS": 1157,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-27x20@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-27x20@3x.png": {
+		"ft": 32768,
+		"iS": 1509,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-27x20@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-iPadAir-67x50@2x.png": {
+		"ft": 32768,
+		"iS": 2361,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-iPadAir-67x50@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-iPadAir-74x55@2x.png": {
+		"ft": 32768,
+		"iS": 2551,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-iPadAir-74x55@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-iPhone-60x45@1x.png": {
+		"ft": 32768,
+		"iS": 1231,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-iPhone-60x45@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-iPhone-60x45@2x.png": {
+		"ft": 32768,
+		"iS": 2132,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-iPhone-60x45@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-iPhone-60x45@3x.png": {
+		"ft": 32768,
+		"iS": 2144,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-iPhone-60x45@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-app-store-1024x768.png": {
+		"ft": 32768,
+		"iS": 33952,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-app-store-1024x768.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-transcript-32x24@1x.png": {
+		"ft": 32768,
+		"iS": 1375,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-transcript-32x24@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-transcript-32x24@2x.png": {
+		"ft": 32768,
+		"iS": 1323,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-transcript-32x24@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/imessenger\/icon-messages-transcript-32x24@3x.png": {
+		"ft": 32768,
+		"iS": 1790,
+		"oA": 0,
+		"oAP": "\/favicons\/imessenger\/icon-messages-transcript-32x24@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Contents.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Contents-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-60.png": {
+		"ft": 32768,
+		"iS": 1461,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-72.png": {
+		"ft": 32768,
+		"iS": 1717,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-72@2x.png": {
+		"ft": 32768,
+		"iS": 3243,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-72@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-20x20@1x.png": {
+		"ft": 32768,
+		"iS": 1116,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-20x20@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-20x20@2x.png": {
+		"ft": 32768,
+		"iS": 1091,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-20x20@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-20x20@3x.png": {
+		"ft": 32768,
+		"iS": 1461,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-20x20@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-29x29@1x.png": {
+		"ft": 32768,
+		"iS": 1501,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-29x29@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-29x29@2x.png": {
+		"ft": 32768,
+		"iS": 1428,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-29x29@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-29x29@3x.png": {
+		"ft": 32768,
+		"iS": 2037,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-29x29@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-40x40@1x.png": {
+		"ft": 32768,
+		"iS": 1091,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-40x40@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-40x40@2x.png": {
+		"ft": 32768,
+		"iS": 1820,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-40x40@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-40x40@3x.png": {
+		"ft": 32768,
+		"iS": 2678,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-40x40@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-60x60@1x.png": {
+		"ft": 32768,
+		"iS": 1461,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-60x60@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-60x60@2x.png": {
+		"ft": 32768,
+		"iS": 2678,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-60x60@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-60x60@3x.png": {
+		"ft": 32768,
+		"iS": 2648,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-60x60@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-76x76@1x.png": {
+		"ft": 32768,
+		"iS": 1788,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-76x76@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-76x76@2x.png": {
+		"ft": 32768,
+		"iS": 3384,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-76x76@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-76x76@3x.png": {
+		"ft": 32768,
+		"iS": 5547,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-76x76@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon-App-83.5x83.5@2x.png": {
+		"ft": 32768,
+		"iS": 3791,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon-App-83.5x83.5@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon.png": {
+		"ft": 32768,
+		"iS": 1406,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/Icon@2x.png": {
+		"ft": 32768,
+		"iS": 2563,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/Icon@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/AppIcon.appiconset\/ItunesArtwork@2x.png": {
+		"ft": 32768,
+		"iS": 45560,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/AppIcon.appiconset\/ItunesArtwork@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/Icon-Small-50.png": {
+		"ft": 32768,
+		"iS": 1279,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/Icon-Small-50.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/Icon-Small-50@2x.png": {
+		"ft": 32768,
+		"iS": 2265,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/Icon-Small-50@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/iTunesArtwork@1x.png": {
+		"ft": 32768,
+		"iS": 16907,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/iTunesArtwork@1x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/iTunesArtwork@2x.png": {
+		"ft": 32768,
+		"iS": 45560,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/iTunesArtwork@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/iTunesArtwork@3x.png": {
+		"ft": 32768,
+		"iS": 84731,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/iTunesArtwork@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/ios\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/favicons\/ios\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Contents.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Contents-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-24@2x.png": {
+		"ft": 32768,
+		"iS": 1231,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-24@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-27.5@2x.png": {
+		"ft": 32768,
+		"iS": 1392,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-27.5@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-29@2x.png": {
+		"ft": 32768,
+		"iS": 1428,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-29@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-29@3x.png": {
+		"ft": 32768,
+		"iS": 2037,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-29@3x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-40@2x.png": {
+		"ft": 32768,
+		"iS": 1820,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-40@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-44@2x.png": {
+		"ft": 32768,
+		"iS": 2013,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-44@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-86@2x.png": {
+		"ft": 32768,
+		"iS": 3945,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-86@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicons\/watchkit\/AppIcon.appiconset\/Icon-98@2x.png": {
+		"ft": 32768,
+		"iS": 4566,
+		"oA": 0,
+		"oAP": "\/favicons\/watchkit\/AppIcon.appiconset\/Icon-98@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/horsensportalen.info.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -80,6 +708,7 @@
 	"\/img\/horsens.jpg": {
 		"ft": 16384,
 		"iS": 616614,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/horsens.jpg",
 		"oF": 0,
@@ -136,6 +765,24 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 0,
+		"oAP": "\/README.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"\/screenshot.png": {
 		"ft": 32768,
@@ -306,8 +953,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/scss\/base\/site.css",
-		"oF": 0,
+		"oAP": "\/css\/site.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1533,151 +2180,151 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/templates\/block--horsensportalen-content.html.twig": {
+	"\/templates\/block\/block--horsensportalen-content.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/block--horsensportalen-content.html.twig",
+		"oAP": "\/templates\/block\/block--horsensportalen-content.html.twig",
 		"oF": 0
 		},
-	"\/templates\/block--horsensportalen-main-menu.html.twig": {
+	"\/templates\/block\/block--horsensportalen-main-menu.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/block--horsensportalen-main-menu.html.twig",
+		"oAP": "\/templates\/block\/block--horsensportalen-main-menu.html.twig",
 		"oF": 0
 		},
-	"\/templates\/block--horsensportalen-searchapipagesearchblockform-2.html.twig": {
+	"\/templates\/block\/block--horsensportalen-searchapipagesearchblockform-2.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/block--horsensportalen-searchapipagesearchblockform-2.html.twig",
+		"oAP": "\/templates\/block\/block--horsensportalen-searchapipagesearchblockform-2.html.twig",
 		"oF": 0
 		},
-	"\/templates\/block--system-branding-block.html.twig": {
+	"\/templates\/block\/block--system-branding-block.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/block--system-branding-block.html.twig",
+		"oAP": "\/templates\/block\/block--system-branding-block.html.twig",
 		"oF": 0
 		},
-	"\/templates\/block.html.twig": {
+	"\/templates\/block\/block.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/block.html.twig",
+		"oAP": "\/templates\/block\/block.html.twig",
 		"oF": 0
 		},
-	"\/templates\/breadcrumb.html.twig": {
+	"\/templates\/block\/form--search-api-page-block-form.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/breadcrumb.html.twig",
+		"oAP": "\/templates\/block\/form--search-api-page-block-form.html.twig",
 		"oF": 0
 		},
-	"\/templates\/field--node--created.html.twig": {
+	"\/templates\/components\/breadcrumb.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/field--node--created.html.twig",
+		"oAP": "\/templates\/components\/breadcrumb.html.twig",
 		"oF": 0
 		},
-	"\/templates\/form--search-api-page-block-form.html.twig": {
+	"\/templates\/components\/menu.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/form--search-api-page-block-form.html.twig",
+		"oAP": "\/templates\/components\/menu.html.twig",
 		"oF": 0
 		},
-	"\/templates\/image.html.twig": {
+	"\/templates\/components\/pager.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/image.html.twig",
+		"oAP": "\/templates\/components\/pager.html.twig",
 		"oF": 0
 		},
-	"\/templates\/input--submit.html.twig": {
+	"\/templates\/components\/status-messages.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/input--submit.html.twig",
+		"oAP": "\/templates\/components\/status-messages.html.twig",
 		"oF": 0
 		},
-	"\/templates\/menu.html.twig": {
+	"\/templates\/field\/field--node--created.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/menu.html.twig",
+		"oAP": "\/templates\/field\/field--node--created.html.twig",
 		"oF": 0
 		},
-	"\/templates\/node--teaser.html.twig": {
+	"\/templates\/field\/image.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/node--teaser.html.twig",
+		"oAP": "\/templates\/field\/image.html.twig",
 		"oF": 0
 		},
-	"\/templates\/node.html.twig": {
+	"\/templates\/field\/input--submit.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/node.html.twig",
+		"oAP": "\/templates\/field\/input--submit.html.twig",
 		"oF": 0
 		},
-	"\/templates\/page.html.twig": {
+	"\/templates\/node\/node--teaser.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/page.html.twig",
+		"oAP": "\/templates\/node\/node--teaser.html.twig",
 		"oF": 0
 		},
-	"\/templates\/pager.html.twig": {
+	"\/templates\/node\/node.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/pager.html.twig",
+		"oAP": "\/templates\/node\/node.html.twig",
 		"oF": 0
 		},
-	"\/templates\/region--content.html.twig": {
+	"\/templates\/page\/page.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/region--content.html.twig",
+		"oAP": "\/templates\/page\/page.html.twig",
 		"oF": 0
 		},
-	"\/templates\/region--header.html.twig": {
+	"\/templates\/region\/region--content.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/region--header.html.twig",
+		"oAP": "\/templates\/region\/region--content.html.twig",
 		"oF": 0
 		},
-	"\/templates\/region--navigation.html.twig": {
+	"\/templates\/region\/region--header.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/region--navigation.html.twig",
+		"oAP": "\/templates\/region\/region--header.html.twig",
 		"oF": 0
 		},
-	"\/templates\/region.html.twig": {
+	"\/templates\/region\/region--navigation.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/region.html.twig",
+		"oAP": "\/templates\/region\/region--navigation.html.twig",
 		"oF": 0
 		},
-	"\/templates\/status-messages.html.twig": {
+	"\/templates\/region\/region.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/status-messages.html.twig",
+		"oAP": "\/templates\/region\/region.html.twig",
 		"oF": 0
 		},
-	"\/templates\/taxonomy-term--iconer.html.twig": {
+	"\/templates\/taxonomy\/taxonomy-term--iconer.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/templates\/taxonomy-term--iconer.html.twig",
+		"oAP": "\/templates\/taxonomy\/taxonomy-term--iconer.html.twig",
 		"oF": 0
 		},
 	"\/templates\/views\/views-view-list.html.twig": {
@@ -1717,7 +2364,8 @@
 	"creationDate": 535550879,
 	"displayValue": "horsensportalen",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-angryPicard"
+	"iconImageName": "meme-angryPicard",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3112,7 +3760,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "test.drupal8",
+	"externalServerAddress": "dev.horsensportalen",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -3520,6 +4168,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
