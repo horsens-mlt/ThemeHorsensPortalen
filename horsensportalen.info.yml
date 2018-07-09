@@ -18,5 +18,5 @@ regions:
  content_bottom: 'Content bottom'
  footer: 'Footer'
 
-version: '8.x-1.01'
+version: '8.x-1.02'
 project: 'HorsensPortalen'
