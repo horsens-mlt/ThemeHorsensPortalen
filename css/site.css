@@ -6167,6 +6167,9 @@ header#top {
   background-position: center center;
   background-color: #2b2f61; }
 
+.dialog-off-canvas-main-canvas {
+  height: 100%; }
+
 #main-navigation {
   background-color: #fff; }
 

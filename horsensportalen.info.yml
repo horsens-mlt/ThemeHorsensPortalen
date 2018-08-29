@@ -6,7 +6,6 @@ core: '8.x'
 
 libraries:
 - horsensportalen/bootstrap-cdn
-- horsensportalen/xfontawesome-cdn
 - horsensportalen/global-styling
 
 regions:
@@ -18,5 +17,5 @@ regions:
  content_bottom: 'Content bottom'
  footer: 'Footer'
 
-version: '8.x-1.02'
+version: '8.x-1.03'
 project: 'HorsensPortalen'

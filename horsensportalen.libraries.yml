@@ -18,14 +18,3 @@ bootstrap-cdn:
     name: The MIT License (MIT)
     url: //github.com/twbs/bootstrap/blob/master/LICENSE
     gpl-compatible: true
-
-fontawesome-cdn:
-  version: 5.0.3
-  remote: //use.fontawesome.com/releases/v5.0.3
-  css:
-    base:
-      https://use.fontawesome.com/releases/v5.0.3/css/all.css: { weight: -1 }
-  license:
-    name: The MIT License (MIT)
-    url: //fontawesome.com/license
-    gpl-compatible: true
