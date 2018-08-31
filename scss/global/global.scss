@@ -12,6 +12,7 @@ body {
 /*-----  Header  ------*/
 
 
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: $headings-font-family;
    margin-bottom: 0px;
@@ -19,6 +20,12 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
+   margin-bottom: 1em;
+   border-top: 1px solid #e7e7e7;
+   border-bottom: 1px solid #e7e7e7;
+   padding: 20px 0px 25px 0px;
+   font-size: 2em;
+   margin: 0.67em 0;
 }
 
 h2 {
@@ -26,7 +33,7 @@ h2 {
 }
 
 h3 {
-
+font-size: 1.125em;
 }
 
 h5 {
@@ -44,6 +51,22 @@ a {
 	color: $brand-primary;
 }
 
+li a {
+   color: #000;
+}
+
+li a.is-active {
+  font-weight: bold;
+}
+
+li {
+   padding-bottom: 5px;
+}
+
+li li {
+   padding-bottom: 0px;
+}
+
 .img-fluid {
    width: 100%;
 }
@@ -53,14 +76,32 @@ input[type="search"] {
    box-sizing: border-box;
 }
 
-hr {
-   //border-top: 1px solid rgba(0, 0, 0, 0.5);
-   border-top: 1px solid #2b2f61;
-   border-bottom: 0;
-   margin-top: 20px;
-   margin-bottom: 20px;
+.hero {
+    transition: min-height .2s ease-in-out;
+    min-height: 540px;
+    max-height: calc(90vh - 80px);
+    margin-bottom: -440px;
+}
+.hero {
+    position: relative;
+    }
+
+.hero .hero__background-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    overflow: hidden;
 }
 
+
+.card {
+  border-radius: 0px;
+}
 
 /*-----   scroll to top -----*/
 #toTop {

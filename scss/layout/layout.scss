@@ -10,16 +10,16 @@ header#top {
 }
 
 
-.dialog-off-canvas-main-canvas {
+
+body.user-logged-in .dialog-off-canvas-main-canvas {
 	height: 100%;
+	margin-top: 45px;
 }
 
 #main-navigation {
   background-color: #fff;
 }
 
-section.container {
-}
 
 #content_bottom {
 
