@@ -6372,3 +6372,6 @@ figure.imghover.hover i {
   transition: margin-right .1s ease-in-out;
   margin: 0px 6px;
   padding: 0px; }
+
+.card {
+  word-wrap: normal; }
