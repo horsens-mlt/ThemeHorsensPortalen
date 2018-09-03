@@ -1,0 +1,20 @@
+global-styling:
+  version: VERSION
+  css:
+    base:
+      css/site.css: {}
+
+bootstrap-cdn:
+  version: 4.0.0-beta.2
+  remote: //maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2
+ # css:
+ #   base:
+ #     https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css: { weight: -1 }
+  js:
+    https://code.jquery.com/jquery-3.2.1.slim.min.js: { weight: -1 }
+    https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js: {}
+    https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js: {}
+  license:
+    name: The MIT License (MIT)
+    url: //github.com/twbs/bootstrap/blob/master/LICENSE
+    gpl-compatible: true
