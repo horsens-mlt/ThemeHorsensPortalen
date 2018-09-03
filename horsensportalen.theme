@@ -50,21 +50,16 @@ function horsensportalen_preprocess_form_element(&$variables) {
 /**
  * Implements hook_form_alter().
  */
-function horsensportalen_form_search_api_page_block_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+function horsensportalen_form_webform_submission_sogeform_add_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
 
   //Input field
-  $form['keys']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
-  $form['keys']['#attributes']['class'] = array('p-3 border-0');
+  $form['elements']['search_api_fulltext']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
+  $form['elements']['search_api_fulltext']['#attributes']['class'] = array('p-3 border-0');
 
   //Submit button
-  $form['actions']['#prefix'] = '<button type="submit" class="">';
-  $form['actions']['#suffix'] = '</button>';
-  $form['actions']['submit']['#value'] = t('');
+  $form['elements']['actions']['#submit__label'] = ' ';
   $form['actions']['submit']['#markup'] = '<i class="fas fa-search fa-lg"></i>';
   $form['actions']['submit']['#attributes']['class'] = array('btn','btn-primary', 'border-0', 'p-3');
-  $form['actions']['#weight'] = 10;
-
- // kint($form);
 }
 
 
