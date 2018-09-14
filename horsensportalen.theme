@@ -51,7 +51,17 @@ function horsensportalen_preprocess_form_element(&$variables) {
  */
 function horsensportalen_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
 
+$form['test'] = array(
+  '#value' => $form['#action'],
+  '#type' => 'hidden',
+);
+
+
 if($form['#action'] == '/sogeside') {
+  $form['test2'] = array(
+  '#value' => 'Søgeside godkendt',
+  '#type' => 'hidden',
+);
   //Input field
   $form['elements']['search_api_fulltext']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
   $form['elements']['search_api_fulltext']['#attributes']['class'] = array('p-3 border-0');
