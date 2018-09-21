@@ -17,5 +17,5 @@ regions:
  content_bottom: 'Content bottom'
  footer: 'Footer'
 
-version: '8.x-1.03'
-project: 'HorsensPortalen'
+ckeditor_stylesheets:
+  - css/editor.css
