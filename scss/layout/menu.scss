@@ -7,6 +7,16 @@
     color: #000;
 }
 
+ul.navbar-nav {
+    li a {
+       color: #000;
+    }
+    
+    li a.is-active {
+      font-weight: bold;
+    }
+}
+
 a.navbar-brand {
    font-weight: 700;
    font-size: 20px;
