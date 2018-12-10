@@ -34,9 +34,8 @@
     'block',
     'block-' ~ configuration.provider|clean_class,
     'block-' ~ plugin_id|clean_class,
-    'mb-4',
+    content['#attributes']['region'] != 'driftmeddelelser' ? 'mb-4' : NULL,
     'region-' ~ content['#attributes']['region'],
-    'xrow',
   ]
 %}
 <div{{ attributes.addClass(classes) }}>

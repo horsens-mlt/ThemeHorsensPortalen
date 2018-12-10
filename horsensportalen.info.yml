@@ -9,6 +9,7 @@ libraries:
 - horsensportalen/global-styling
 
 regions:
+ driftmeddelelser: 'Driftmeddelelser'
  navigation: 'Navigation'
  header: 'Header'
  breadcrumb: 'breadcrumb'

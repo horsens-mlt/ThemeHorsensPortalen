@@ -5,9 +5,6 @@ global-styling:
       css/site.css: {}
   js:
     js/theme.js: {}
-  dependencies:
-    - core/jquery
-    - core/jquery.once
 
 bootstrap-cdn:
   version: 4.1.0
@@ -16,9 +13,14 @@ bootstrap-cdn:
  #   base:
  #     https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css: { weight: -1 }
   js:
-    #https://code.jquery.com/jquery-3.3.1.slim.min.js: { weight: -1 }
     https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js: {}
     https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once
   license:
     name: The MIT License (MIT)
     url: //github.com/twbs/bootstrap/blob/master/LICENSE

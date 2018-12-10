@@ -6196,8 +6196,7 @@ header#top {
   background-color: #2b2f61; }
 
 body.user-logged-in .dialog-off-canvas-main-canvas {
-  height: 100%;
-  margin-top: 45px; }
+  height: 100%; }
 
 #main-navigation {
   background-color: #fff; }
