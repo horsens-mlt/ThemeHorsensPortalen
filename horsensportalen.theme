@@ -26,6 +26,23 @@ function horsensportalen_preprocess_block(&$variables) {
               $variables["content"]["#attributes"]["region"] = $block->getRegion();
           }
       }
+
+  if ($variables['elements']['#id'] == 'views_block__drift_og_deadlines_block_1') { 
+
+        // Get the current user
+        $user = \Drupal::currentUser();
+
+        // Check for permission
+        if($user->hasPermission('create drift_og_deadlines content')) {
+          $options = ['absolute' => TRUE, 'attributes' => ['class' => 'this-class']];
+          $link_object = Drupal\Core\Link::createFromRoute('Opret ny driftmeddelelse', 'node.add', ['node_type' => 'page'], $options);
+        }
+
+
+      $variables['add_drift_message_link'] = $link_object;
+    }
+
+    $variables['add_drift_message_link'] = 'TEST';
 }
 
 /**
