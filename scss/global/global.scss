@@ -59,12 +59,6 @@ input[type="search"] {
    box-sizing: border-box;
 }
 
-div[data-toggle="collapse"]:hover,
-div[aria-expanded="true"][data-toggle="collapse"] {
-  cursor: pointer;
-  background-color: #f8f9fa;
-}
-
 .hero {
     transition: min-height .2s ease-in-out;
     min-height: 540px;
@@ -91,12 +85,6 @@ div[aria-expanded="true"][data-toggle="collapse"] {
 .card {
   border-radius: 0px;
 }
-
-.vericaltext {
-           width:1px;
-           word-wrap: break-word;
-           white-space:pre-wrap; 
-        }
 
 /*-----   scroll to top -----*/
 #toTop {

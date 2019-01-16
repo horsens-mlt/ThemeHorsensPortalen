@@ -1,5 +1,4 @@
 <?php
-
 /**
  * Implements hook_preprocess_page().
  */
@@ -14,6 +13,8 @@ function horsensportalen_preprocess_page(&$variables) {
  * Implements hook_preprocess_block().
  */
 function horsensportalen_preprocess_block(&$variables) {
+
+  
   // Set the site_name variable for templates
   $variables['site_name'] = \Drupal::config('system.site')->get('name');
 
@@ -27,6 +28,7 @@ function horsensportalen_preprocess_block(&$variables) {
           }
       }
 
+  // Add rediger link to drif og deadline block
   if ($variables['elements']['#id'] == 'views_block__drift_og_deadlines_block_1') { 
 
         // Get the current user
@@ -35,14 +37,13 @@ function horsensportalen_preprocess_block(&$variables) {
         // Check for permission
         if($user->hasPermission('create drift_og_deadlines content')) {
           $options = ['absolute' => TRUE, 'attributes' => ['class' => 'this-class']];
-          $link_object = Drupal\Core\Link::createFromRoute('Opret ny driftmeddelelse', 'node.add', ['node_type' => 'page'], $options);
+          $link_object = Drupal\Core\Link::createFromRoute('xxOpret ny driftmeddelelse', 'node.add', ['node_type' => 'drift_og_deadlines'], $options);
         }
 
 
       $variables['add_drift_message_link'] = $link_object;
     }
 
-    $variables['add_drift_message_link'] = 'TEST';
 }
 
 /**
@@ -76,11 +77,13 @@ $form['test'] = array(
 
 if($form['#action'] == '/sogeside') {
   $form['test2'] = array(
-  '#value' => 'Søgeside godkendt',
-  '#type' => 'hidden',
-);
+    '#value' => 'Søgeside godkendt',
+    '#type' => 'hidden',
+  );
+
   //Input field
-  $form['elements']['search_api_fulltext']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
+  //$form['elements']['search_api_fulltext']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
+   $form['elements']['search_api_fulltext']['#placeholder'] = $form_id;
   $form['elements']['search_api_fulltext']['#attributes']['class'] = array('p-3 border-0');
 
   //Submit button
