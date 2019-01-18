@@ -27,9 +27,10 @@ function horsensportalen_preprocess_block(&$variables) {
               $variables["content"]["#attributes"]["region"] = $block->getRegion();
           }
       }
+      dsm($variables['elements']['#id'] );
 
   // Add rediger link to drif og deadline block
-  if ($variables['elements']['#id'] == 'views_block__drift_og_deadlines_block_1') { 
+  if ($variables['elements']['#id'] == 'drifemeddelelser') { 
 
         // Get the current user
         $user = \Drupal::currentUser();

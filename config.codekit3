@@ -9,14 +9,6 @@
 	],
 "creatorBuild": "28905",
 "files": {
-	"/composer.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/composer-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
 	"/copy_horsensportalen.libraries.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -757,6 +749,16 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/js/respond.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/js/theme-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/theme-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2246,6 +2248,13 @@
 		"oAP": "/templates/block/block--system-branding-block.html.twig",
 		"oF": 0
 		},
+	"/templates/block/block--views-block--drift-og-deadlines-block-1.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/block/block--views-block--drift-og-deadlines-block-1.html.twig",
+		"oF": 0
+		},
 	"/templates/block/block.html.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -2295,6 +2304,13 @@
 		"oAP": "/templates/components/status-messages.html.twig",
 		"oF": 0
 		},
+	"/templates/field/field--field-dagens-ret.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/field/field--field-dagens-ret.html.twig",
+		"oF": 0
+		},
 	"/templates/field/field--node--created.html.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -2314,6 +2330,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/field/input--submit.html.twig",
+		"oF": 0
+		},
+	"/templates/field/xxfield--paragraph--field-beskrivelse--driftmeddelse.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/field/xxfield--paragraph--field-beskrivelse--driftmeddelse.html.twig",
+		"oF": 0
+		},
+	"/templates/node/node--drift-og-deadlines--default.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/node/node--drift-og-deadlines--default.html.twig",
 		"oF": 0
 		},
 	"/templates/node/node--teaser.html.twig": {
@@ -2344,6 +2374,13 @@
 		"oAP": "/templates/region/region--content.html.twig",
 		"oF": 0
 		},
+	"/templates/region/region--driftmeddelelser.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/region/region--driftmeddelelser.html.twig",
+		"oF": 0
+		},
 	"/templates/region/region--header.html.twig": {
 		"cB": 0,
 		"ft": 8192,
@@ -2365,11 +2402,32 @@
 		"oAP": "/templates/region/region.html.twig",
 		"oF": 0
 		},
+	"/templates/taxonomy/taxonomy-term--drift-og-deadlines-status.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/taxonomy/taxonomy-term--drift-og-deadlines-status.html.twig",
+		"oF": 0
+		},
 	"/templates/taxonomy/taxonomy-term--iconer.html.twig": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/taxonomy/taxonomy-term--iconer.html.twig",
+		"oF": 0
+		},
+	"/templates/views/views-view--drift_og_deadlines.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/views/views-view--drift_og_deadlines.html.twig",
+		"oF": 0
+		},
+	"/templates/views/views-view--radhuskantine_menu.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/views/views-view--radhuskantine_menu.html.twig",
 		"oF": 0
 		},
 	"/templates/views/views-view-list.html.twig": {
@@ -2384,6 +2442,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "/templates/views/views-view-table.html.twig",
+		"oF": 0
+		},
+	"/templates/views/views-view-unformatted--drift_og_deadlines.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/views/views-view-unformatted--drift_og_deadlines.html.twig",
+		"oF": 0
+		},
+	"/templates/views/views-view-unformatted.html.twig": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/templates/views/views-view-unformatted.html.twig",
 		"oF": 0
 		},
 	"/templates/views/views-view.html.twig": {
