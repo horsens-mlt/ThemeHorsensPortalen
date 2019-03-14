@@ -6198,9 +6198,16 @@ header#top {
 body.user-logged-in .dialog-off-canvas-main-canvas {
   height: 100%; }
 
+section#driftmeddelelser {
+  background-color: #ec022e; }
+
 #main-navigation {
   background-color: #fff;
   padding: 10px 0px; }
+
+.node-preview-container {
+  position: relative;
+  top: 0px; }
 
 footer#pagefooter {
   clear: both;
@@ -6230,6 +6237,8 @@ a.navbar-brand {
 
 .dropdown-submenu {
   position: relative; }
+  .dropdown-submenu .dropdown-item {
+    padding: 0.25rem 1.8rem; }
 
 .dropdown-submenu > .dropdown-menu {
   top: 0;
@@ -6254,7 +6263,7 @@ a.navbar-brand {
   border-width: 5px 0 5px 5px;
   border-left-color: #ccc;
   margin-top: 5px;
-  margin-right: -10px; }
+  margin-right: -15px; }
 
 .dropdown-submenu:hover > a:after {
   border-left-color: #fff; }
@@ -6343,6 +6352,12 @@ figure.imghover.hover i {
   -webkit-transform: translate(-50%, -50%) scale(1);
   transform: translate(-50%, -50%) scale(1);
   transition: all 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275); }
+
+.video-embed-field-responsive-video:after {
+  padding-bottom: 0px; }
+
+.video-embed-field-responsive-video {
+  height: 500px; }
 
 .block-fieldblock {
   background-color: #eee !important; }

@@ -27,18 +27,18 @@ function horsensportalen_preprocess_block(&$variables) {
               $variables["content"]["#attributes"]["region"] = $block->getRegion();
           }
       }
-      dsm($variables['elements']['#id'] );
+      //print_r($variables['elements']['#id'] );
 
   // Add rediger link to drif og deadline block
-  if ($variables['elements']['#id'] == 'drifemeddelelser') { 
+  if ($variables['elements']['#id'] == 'views_block__drift_og_deadlines_block_1') { 
 
         // Get the current user
         $user = \Drupal::currentUser();
 
         // Check for permission
         if($user->hasPermission('create drift_og_deadlines content')) {
-          $options = ['absolute' => TRUE, 'attributes' => ['class' => 'this-class']];
-          $link_object = Drupal\Core\Link::createFromRoute('xxOpret ny driftmeddelelse', 'node.add', ['node_type' => 'drift_og_deadlines'], $options);
+          $options = ['absolute' => TRUE, 'attributes' => ['class' => 'text-white']];
+          $link_object = Drupal\Core\Link::createFromRoute('Opret ny driftmeddelelse', 'node.add', ['node_type' => 'drift_og_deadlines'], $options);
         }
 
 
@@ -64,11 +64,12 @@ function horsensportalen_preprocess_form_element(&$variables) {
      $variables['attributes']['class'][] = 'col';
 }
 
-
 /**
  * Implements hook_form_alter().
  */
 function horsensportalen_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+
+dsm($form);
 
 $form['test'] = array(
   '#value' => $form['#action'],
@@ -83,8 +84,8 @@ if($form['#action'] == '/sogeside') {
   );
 
   //Input field
-  //$form['elements']['search_api_fulltext']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
-   $form['elements']['search_api_fulltext']['#placeholder'] = $form_id;
+  $form['elements']['search_api_fulltext']['#placeholder'] = 'Søg på '.\Drupal::config('system.site')->get('name');
+  // $form['elements']['search_api_fulltext']['#placeholder'] = $form_id;
   $form['elements']['search_api_fulltext']['#attributes']['class'] = array('p-3 border-0');
 
   //Submit button
@@ -92,30 +93,4 @@ if($form['#action'] == '/sogeside') {
   $form['actions']['submit']['#markup'] = '<i class="fas fa-search fa-lg"></i>';
   $form['actions']['submit']['#attributes']['class'] = array('btn','btn-primary', 'border-0', 'p-3');
 }
-}
-
-
-/**
- * Implements hook_theme_suggestions_alter
- */
-function horsensportalen_theme_suggestions_alter(array &$suggestions, array $variables)
-{
-
-    if (isset($variables['element']) && isset($variables['element']['#type']) && $variables['element']['#type'] == 'form') {
-        $original_theme_hook = $variables['theme_hook_original'];
-
-        $suggestions[] = $original_theme_hook . '__' . str_replace('-', '_', $variables['element']['#id']);
-    }
-
-    return $suggestions;
-
-}
-
-/**
- * Implements hook_editor_js_settings_alter().
- */
-function horsensportalen_editor_js_settings_alter(array &$settings) {
-  foreach ($settings['editor']['formats'] as $name => $value) {
-    $settings['editor']['formats'][$name]['editorSettings']['autoParagraph'] = FALSE;
-  }
 }

@@ -16,6 +16,10 @@ body.user-logged-in .dialog-off-canvas-main-canvas {
 	//margin-top: 45px;
 }
 
+section#driftmeddelelser {
+	background-color: #ec022e;
+}
+
 #main-navigation {
   background-color: #fff;
   padding: 10px 0px;
@@ -24,6 +28,11 @@ body.user-logged-in .dialog-off-canvas-main-canvas {
 
 #content_bottom {
 
+}
+
+.node-preview-container {
+	position: relative;
+	top: 0px;
 }
 
 footer#pagefooter {

@@ -7,11 +7,12 @@
 		"uuidString": "A9641477-FD2C-4174-A486-2C269FEFBEAB"
 		}
 	],
-"creatorBuild": "28905",
+"creatorBuild": "29156",
 "files": {
 	"/copy_horsensportalen.libraries.yml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/copy_horsensportalen.libraries.yml",
 		"oF": 0
@@ -69,6 +70,7 @@
 	"/favicon.ico": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicon.ico",
 		"oF": 0
@@ -595,6 +597,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/favicons/ios/README.html",
 		"oF": 0,
@@ -704,6 +707,7 @@
 	"/horsensportalen.info.yml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/horsensportalen.info.yml",
 		"oF": 0
@@ -711,6 +715,7 @@
 	"/horsensportalen.libraries.yml": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/horsensportalen.libraries.yml",
 		"oF": 0
@@ -718,6 +723,7 @@
 	"/horsensportalen.theme": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/horsensportalen.theme",
 		"oF": 0
@@ -734,6 +740,7 @@
 		"q": 100
 		},
 	"/js/min/theme-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -744,6 +751,7 @@
 		"tS": 0
 		},
 	"/js/respond.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -754,6 +762,7 @@
 		"tS": 0
 		},
 	"/js/theme-min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -764,6 +773,7 @@
 		"tS": 0
 		},
 	"/js/theme.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -774,6 +784,7 @@
 		"tS": 0
 		},
 	"/js/wow.min.js": {
+		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -801,6 +812,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/README.html",
 		"oF": 0,
@@ -825,6 +837,7 @@
 	"/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_block.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_block.scssc",
 		"oF": 0
@@ -832,6 +845,7 @@
 	"/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_buttons.scssc",
 		"oF": 0
@@ -839,6 +853,7 @@
 	"/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_fields.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_fields.scssc",
 		"oF": 0
@@ -846,6 +861,7 @@
 	"/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_forms.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_forms.scssc",
 		"oF": 0
@@ -853,6 +869,7 @@
 	"/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_variables.scssc",
 		"oF": 0
@@ -860,6 +877,7 @@
 	"/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_views.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/_views.scssc",
 		"oF": 0
@@ -867,6 +885,7 @@
 	"/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/global.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/0172ed7f19520449d97762b7822b7dfee522ffc9/global.scssc",
 		"oF": 0
@@ -874,6 +893,7 @@
 	"/scss/base/.sass-cache/2a705085a09537121c3b053cdc964d8cb42548d6/layout.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/2a705085a09537121c3b053cdc964d8cb42548d6/layout.scssc",
 		"oF": 0
@@ -881,6 +901,7 @@
 	"/scss/base/.sass-cache/2a705085a09537121c3b053cdc964d8cb42548d6/menu.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/2a705085a09537121c3b053cdc964d8cb42548d6/menu.scssc",
 		"oF": 0
@@ -888,6 +909,7 @@
 	"/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_block.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_block.scssc",
 		"oF": 0
@@ -895,6 +917,7 @@
 	"/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_buttons.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_buttons.scssc",
 		"oF": 0
@@ -902,6 +925,7 @@
 	"/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_forms.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_forms.scssc",
 		"oF": 0
@@ -909,6 +933,7 @@
 	"/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_variables.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_variables.scssc",
 		"oF": 0
@@ -916,6 +941,7 @@
 	"/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_views.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/_views.scssc",
 		"oF": 0
@@ -923,6 +949,7 @@
 	"/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/global.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/870bc6efb65dc5b1292820c2bf67fd51e06328a7/global.scssc",
 		"oF": 0
@@ -930,6 +957,7 @@
 	"/scss/base/.sass-cache/9bc340c44246e03c1aae88f0b92f191607e36e68/_block.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 1,
 		"oAP": "/scss/base/.sass-cache/9bc340c44246e03c1aae88f0b92f191607e36e68/_block.scssc",
 		"oF": 0
@@ -937,6 +965,7 @@
 	"/scss/base/.sass-cache/a62229247ef2af7eb4c12fb7d3bcc1770c7d9f36/site.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/a62229247ef2af7eb4c12fb7d3bcc1770c7d9f36/site.scssc",
 		"oF": 0
@@ -944,6 +973,7 @@
 	"/scss/base/.sass-cache/ccf93d26a9829970e476e3e73be7b952f5c607e7/site.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/ccf93d26a9829970e476e3e73be7b952f5c607e7/site.scssc",
 		"oF": 0
@@ -951,6 +981,7 @@
 	"/scss/base/.sass-cache/d9d8c99b86dbedaa0483270102e2e7da927e4df1/layout.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/d9d8c99b86dbedaa0483270102e2e7da927e4df1/layout.scssc",
 		"oF": 0
@@ -958,6 +989,7 @@
 	"/scss/base/.sass-cache/d9d8c99b86dbedaa0483270102e2e7da927e4df1/menu.scssc": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/scss/base/.sass-cache/d9d8c99b86dbedaa0483270102e2e7da927e4df1/menu.scssc",
 		"oF": 0
@@ -2223,6 +2255,7 @@
 	"/templates/block/block--horsensportalen-content.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/block--horsensportalen-content.html.twig",
 		"oF": 0
@@ -2230,6 +2263,7 @@
 	"/templates/block/block--horsensportalen-main-menu.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/block--horsensportalen-main-menu.html.twig",
 		"oF": 0
@@ -2237,6 +2271,7 @@
 	"/templates/block/block--horsensportalen-searchapipagesearchblockform-2.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/block--horsensportalen-searchapipagesearchblockform-2.html.twig",
 		"oF": 0
@@ -2244,6 +2279,7 @@
 	"/templates/block/block--system-branding-block.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/block--system-branding-block.html.twig",
 		"oF": 0
@@ -2251,6 +2287,7 @@
 	"/templates/block/block--views-block--drift-og-deadlines-block-1.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/block--views-block--drift-og-deadlines-block-1.html.twig",
 		"oF": 0
@@ -2258,6 +2295,7 @@
 	"/templates/block/block.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/block.html.twig",
 		"oF": 0
@@ -2265,6 +2303,7 @@
 	"/templates/block/form--search-api-page-block-form.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/form--search-api-page-block-form.html.twig",
 		"oF": 0
@@ -2272,6 +2311,7 @@
 	"/templates/block/webform--sogeform.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/block/webform--sogeform.html.twig",
 		"oF": 0
@@ -2279,6 +2319,7 @@
 	"/templates/components/breadcrumb.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/components/breadcrumb.html.twig",
 		"oF": 0
@@ -2286,6 +2327,7 @@
 	"/templates/components/menu.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/components/menu.html.twig",
 		"oF": 0
@@ -2293,6 +2335,7 @@
 	"/templates/components/pager.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/components/pager.html.twig",
 		"oF": 0
@@ -2300,6 +2343,7 @@
 	"/templates/components/status-messages.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/components/status-messages.html.twig",
 		"oF": 0
@@ -2307,6 +2351,7 @@
 	"/templates/field/field--field-dagens-ret.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/field/field--field-dagens-ret.html.twig",
 		"oF": 0
@@ -2314,6 +2359,7 @@
 	"/templates/field/field--node--created.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/field/field--node--created.html.twig",
 		"oF": 0
@@ -2321,6 +2367,7 @@
 	"/templates/field/image.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/field/image.html.twig",
 		"oF": 0
@@ -2328,6 +2375,7 @@
 	"/templates/field/input--submit.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/field/input--submit.html.twig",
 		"oF": 0
@@ -2335,6 +2383,7 @@
 	"/templates/field/xxfield--paragraph--field-beskrivelse--driftmeddelse.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/field/xxfield--paragraph--field-beskrivelse--driftmeddelse.html.twig",
 		"oF": 0
@@ -2342,6 +2391,7 @@
 	"/templates/node/node--drift-og-deadlines--default.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node/node--drift-og-deadlines--default.html.twig",
 		"oF": 0
@@ -2349,6 +2399,7 @@
 	"/templates/node/node--teaser.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node/node--teaser.html.twig",
 		"oF": 0
@@ -2356,6 +2407,7 @@
 	"/templates/node/node.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/node/node.html.twig",
 		"oF": 0
@@ -2363,6 +2415,7 @@
 	"/templates/page/page.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/page/page.html.twig",
 		"oF": 0
@@ -2370,6 +2423,7 @@
 	"/templates/region/region--content.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/region/region--content.html.twig",
 		"oF": 0
@@ -2377,6 +2431,7 @@
 	"/templates/region/region--driftmeddelelser.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/region/region--driftmeddelelser.html.twig",
 		"oF": 0
@@ -2384,6 +2439,7 @@
 	"/templates/region/region--header.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/region/region--header.html.twig",
 		"oF": 0
@@ -2391,6 +2447,7 @@
 	"/templates/region/region--navigation.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/region/region--navigation.html.twig",
 		"oF": 0
@@ -2398,6 +2455,7 @@
 	"/templates/region/region.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/region/region.html.twig",
 		"oF": 0
@@ -2405,6 +2463,7 @@
 	"/templates/taxonomy/taxonomy-term--drift-og-deadlines-status.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/taxonomy/taxonomy-term--drift-og-deadlines-status.html.twig",
 		"oF": 0
@@ -2412,6 +2471,7 @@
 	"/templates/taxonomy/taxonomy-term--iconer.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/taxonomy/taxonomy-term--iconer.html.twig",
 		"oF": 0
@@ -2419,6 +2479,7 @@
 	"/templates/views/views-view--drift_og_deadlines.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views/views-view--drift_og_deadlines.html.twig",
 		"oF": 0
@@ -2426,6 +2487,7 @@
 	"/templates/views/views-view--radhuskantine_menu.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views/views-view--radhuskantine_menu.html.twig",
 		"oF": 0
@@ -2433,6 +2495,7 @@
 	"/templates/views/views-view-list.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views/views-view-list.html.twig",
 		"oF": 0
@@ -2440,6 +2503,7 @@
 	"/templates/views/views-view-table.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views/views-view-table.html.twig",
 		"oF": 0
@@ -2447,6 +2511,7 @@
 	"/templates/views/views-view-unformatted--drift_og_deadlines.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views/views-view-unformatted--drift_og_deadlines.html.twig",
 		"oF": 0
@@ -2454,6 +2519,7 @@
 	"/templates/views/views-view-unformatted.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views/views-view-unformatted.html.twig",
 		"oF": 0
@@ -2461,6 +2527,7 @@
 	"/templates/views/views-view.html.twig": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/templates/views/views-view.html.twig",
 		"oF": 0
@@ -2468,6 +2535,7 @@
 	"/theme-settings.php": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
 		"oA": 0,
 		"oAP": "/theme-settings.php",
 		"oF": 0
@@ -2567,6 +2635,12 @@
 		"function-sent": {
 			"active": 0
 			},
+		"inline-consecutive-adds": {
+			"active": 0
+			},
+		"inline-environment-variables": {
+			"active": 0
+			},
 		"instanceof": {
 			"active": 0
 			},
@@ -2586,6 +2660,36 @@
 			"active": 0
 			},
 		"minify-booleans": {
+			"active": 0
+			},
+		"minify-builtins": {
+			"active": 0
+			},
+		"minify-constant-folding": {
+			"active": 0
+			},
+		"minify-dead-code-elimination": {
+			"active": 0
+			},
+		"minify-flip-comparisons": {
+			"active": 0
+			},
+		"minify-guarded-expressions": {
+			"active": 0
+			},
+		"minify-infinity": {
+			"active": 0
+			},
+		"minify-mangle-names": {
+			"active": 0
+			},
+		"minify-numeric-literals": {
+			"active": 0
+			},
+		"minify-simplify": {
+			"active": 0
+			},
+		"minify-type-constructors": {
 			"active": 0
 			},
 		"modules-amd": {
@@ -2636,6 +2740,9 @@
 		"pipeline-operator": {
 			"active": 0
 			},
+		"private-methods": {
+			"active": 0
+			},
 		"property-literals": {
 			"active": 0
 			},
@@ -2669,10 +2776,16 @@
 		"regenerator": {
 			"active": 0
 			},
+		"regexp-constructors": {
+			"active": 0
+			},
 		"remove-console": {
 			"active": 0
 			},
 		"remove-debugger": {
+			"active": 0
+			},
+		"remove-undefined": {
 			"active": 0
 			},
 		"reserved-words": {
@@ -3621,6 +3734,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-useless-catch": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-useless-computed-key": {
 			"active": 0,
 			"optionString": ""
@@ -4283,6 +4400,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -4304,6 +4422,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"bundleFormat": 0,
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"syntaxCheckerStyle": 1,
@@ -4326,7 +4445,8 @@
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -4365,6 +4485,7 @@
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
 		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -4374,7 +4495,8 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -4395,7 +4517,8 @@
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
 		"outputStyle": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -4424,7 +4547,8 @@
 		"outputFormat": 0,
 		"outputStyle": 1,
 		"railsCompatible": 0,
-		"shouldRunCacheBuster": 0
+		"shouldRunCacheBuster": 0,
+		"shouldRunHTMLMinifier": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -4512,16 +4636,20 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"ascii_only": {
-			"active": 0,
+		"arrows": {
+			"active": 1,
 			"flagValue": -1
 			},
-		"bare_returns": {
+		"ascii_only": {
 			"active": 0,
 			"flagValue": -1
 			},
 		"booleans": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"booleans_as_integers": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"braces": {
@@ -4533,14 +4661,14 @@
 			"flagValue": -1
 			},
 		"comments": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"comparisons": {
 			"active": 1,
 			"flagValue": -1
 			},
-		"compress": {
+		"computed_props": {
 			"active": 1,
 			"flagValue": -1
 			},
@@ -4563,6 +4691,10 @@
 		"drop_debugger": {
 			"active": 1,
 			"flagValue": -1
+			},
+		"ecma": {
+			"active": 1,
+			"flagValue": 5
 			},
 		"eval": {
 			"active": 0,
@@ -4588,10 +4720,6 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"html5_comments": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"ie8": {
 			"active": 0,
 			"flagValue": -1
@@ -4600,13 +4728,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"indent-start": {
-			"active": 0,
-			"flagValue": 0
-			},
 		"indent_level": {
 			"active": 0,
 			"flagValue": 4
+			},
+		"indent_start": {
+			"active": 0,
+			"flagValue": 0
 			},
 		"inline": {
 			"active": 1,
@@ -4618,6 +4746,10 @@
 			},
 		"join_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"keep_classnames": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"keep_fargs": {
@@ -4640,13 +4772,13 @@
 			"active": 1,
 			"flagValue": -1
 			},
-		"mangle": {
-			"active": 1,
-			"flagValue": -1
-			},
 		"max_line_len": {
 			"active": 1,
 			"flagValue": 32000
+			},
+		"module": {
+			"active": 0,
+			"flagValue": -1
 			},
 		"negate_iife": {
 			"active": 1,
@@ -4655,10 +4787,6 @@
 		"passes": {
 			"active": 1,
 			"flagValue": 1
-			},
-		"preserve_line": {
-			"active": 0,
-			"flagValue": -1
 			},
 		"properties": {
 			"active": 1,
@@ -4682,6 +4810,10 @@
 			},
 		"reduce_vars": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"safari10": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"semicolons": {
@@ -4716,6 +4848,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"unsafe_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"unsafe_comps": {
 			"active": 0,
 			"flagValue": -1
@@ -4725,6 +4861,10 @@
 			"flagValue": -1
 			},
 		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_methods": {
 			"active": 0,
 			"flagValue": -1
 			},
@@ -4752,15 +4892,12 @@
 			"active": 0,
 			"flagValue": -1
 			},
-		"width": {
-			"active": 1,
-			"flagValue": 80
-			},
 		"wrap_iife": {
 			"active": 0,
 			"flagValue": -1
 			}
 		},
+	"uglifyMangleNames": 1,
 	"uglifyReservedNamesString": "$",
 	"websiteRelativeRoot": ""
 	},
