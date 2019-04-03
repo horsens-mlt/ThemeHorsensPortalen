@@ -69,8 +69,6 @@ function horsensportalen_preprocess_form_element(&$variables) {
  */
 function horsensportalen_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
 
-dsm($form);
-
 $form['test'] = array(
   '#value' => $form['#action'],
   '#type' => 'hidden',
