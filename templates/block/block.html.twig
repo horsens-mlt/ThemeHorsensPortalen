@@ -40,7 +40,7 @@
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
-    <h4{{ title_attributes }}>{{ label }}</h4>
+    <h4{{ title_attributes.addClass('text-break') }}>{{ label }}</h4>
   {% endif %}
   {{ title_suffix }}
   {% block content %}

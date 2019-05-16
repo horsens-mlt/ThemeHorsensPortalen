@@ -4,18 +4,18 @@
 	{
 		"name": "Process All Remaining Files and Folders",
 		"stepType": 1,
-		"uuidString": "A9641477-FD2C-4174-A486-2C269FEFBEAB"
+		"uuidString": "F1307B88-B18C-41D9-9486-6597888CB2DE"
 		}
 	],
 "creatorBuild": "29156",
 "files": {
-	"/copy_horsensportalen.libraries.yml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/copy_horsensportalen.libraries.yml",
-		"oF": 0
+	"/composer.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/composer-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/css/animate.css": {
 		"aP": 1,
@@ -825,12 +825,12 @@
 		},
 	"/screenshot.png": {
 		"ft": 32768,
-		"iS": 2290,
+		"iS": 23626,
 		"oA": 0,
 		"oAP": "/screenshot.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -994,6 +994,16 @@
 		"oAP": "/scss/base/.sass-cache/d9d8c99b86dbedaa0483270102e2e7da927e4df1/menu.scssc",
 		"oF": 0
 		},
+	"/scss/base/site-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/scss/base/site-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/scss/base/site.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1012,8 +1022,8 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/css/site.css",
-		"oF": 2,
+		"oAP": "/scss/base/site.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -2546,10 +2556,10 @@
 "manualImportLinks": {
 	},
 "projectAttributes": {
-	"creationDate": 535550879,
-	"displayValue": "horsensportalen",
+	"creationDate": 579172549.79588199,
+	"displayValue": "HorsensPortalen",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-angryPicard",
+	"iconImageName": "meme-hart",
 	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
@@ -2996,7 +3006,7 @@
 			},
 		"array-callback-return": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{'allowImplicit': false}"
 			},
 		"array-element-newline": {
 			"active": 0,
@@ -3032,7 +3042,7 @@
 			},
 		"camelcase": {
 			"active": 0,
-			"optionString": "{'properties': 'always'}"
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
 			},
 		"capitalized-comments": {
 			"active": 0,
@@ -3108,11 +3118,11 @@
 			},
 		"func-name-matching": {
 			"active": 0,
-			"optionString": "'always', {'includeCommonJSModuleExports': false}"
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
 			},
 		"func-names": {
 			"active": 0,
-			"optionString": "'always'"
+			"optionString": "'always', {'generators': 'always'}"
 			},
 		"func-style": {
 			"active": 0,
@@ -3152,7 +3162,7 @@
 			},
 		"id-match": {
 			"active": 0,
-			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true, 'ignoreDestructuring': false}"
 			},
 		"implicit-arrow-linebreak": {
 			"active": 0,
@@ -3160,7 +3170,7 @@
 			},
 		"indent": {
 			"active": 0,
-			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1, }"
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
 			},
 		"init-declarations": {
 			"active": 0,
@@ -3624,7 +3634,7 @@
 			},
 		"no-self-assign": {
 			"active": 1,
-			"optionString": "{'props': false}"
+			"optionString": "{'props': true}"
 			},
 		"no-self-compare": {
 			"active": 0,
@@ -3652,7 +3662,7 @@
 			},
 		"no-tabs": {
 			"active": 0,
-			"optionString": ""
+			"optionString": "{allowIndentationTabs: false}"
 			},
 		"no-template-curly-in-string": {
 			"active": 0,
@@ -3788,7 +3798,7 @@
 			},
 		"object-curly-newline": {
 			"active": 0,
-			"optionString": "{'ObjectExpression': {'multiline': true}, 'ObjectPattern': {'multiline': true}}"
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
 			},
 		"object-curly-spacing": {
 			"active": 0,
@@ -3796,7 +3806,7 @@
 			},
 		"object-property-newline": {
 			"active": 0,
-			"optionString": "{'allowMultiplePropertiesPerLine': true}"
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
 			},
 		"object-shorthand": {
 			"active": 0,
@@ -4004,7 +4014,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "dev.horsensportalen",
+	"externalServerAddress": "http://localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -4593,7 +4603,7 @@
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"tsAllowSyntheticDefaultImports": 0,
@@ -4677,7 +4687,7 @@
 			"flagValue": -1
 			},
 		"dead_code": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"directives": {
@@ -4709,7 +4719,7 @@
 			"flagValue": -1
 			},
 		"hoist_funs": {
-			"active": 1,
+			"active": 0,
 			"flagValue": -1
 			},
 		"hoist_props": {
@@ -4753,7 +4763,7 @@
 			"flagValue": -1
 			},
 		"keep_fargs": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"keep_fnames": {
@@ -4881,7 +4891,7 @@
 			"flagValue": -1
 			},
 		"unused": {
-			"active": 0,
+			"active": 1,
 			"flagValue": -1
 			},
 		"warnings": {
@@ -4898,7 +4908,7 @@
 			}
 		},
 	"uglifyMangleNames": 1,
-	"uglifyReservedNamesString": "$",
+	"uglifyReservedNamesString": "$,exports,require",
 	"websiteRelativeRoot": ""
 	},
 "settingsFileVersion": "3"
