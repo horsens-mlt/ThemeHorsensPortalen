@@ -64,6 +64,7 @@
 {%
   set classes = [
     'node',
+    'mb-4',
     'node--type-' ~ node.bundle|clean_class,
     node.isPromoted() ? 'node--promoted',
     node.isSticky() ? 'node--sticky',
@@ -73,28 +74,19 @@
   ]
 %}
 {{ attach_library('classy/node') }}
-<article{{ attributes.addClass(classes) }}>
-    <header>
-      {{ title_prefix }}
-      {{ title_suffix }}
-      {% if display_submitted %}
-        <div class="meta submitted my-3">
-          {{ author_picture }}
-          <i class="fas fa-calendar-alt"></i> {{ date }}
-          {{ content.flag_bookmark }}
-        </div>
-      {% endif %}
-    </header>
-
-    <div{{ content_attributes.addClass('node__content', 'clearfix') }}>
-      {% block content %}
-        {{ content|without('links','flag_bookmark') }}
-      {% endblock %}
-    </div>
-
-    {% if content.links %}
-      <footer class="link-wrapper">
-        {{ content.links }}
-      </footer>
-    {% endif %}
+<article class="row border-bottom pb-3 mb-2">
+  <header class="col-12 mb-2">
+    {{ content.flag_bookmark }}
+    <h2{{ title_attributes.addClass('node__title title') }}>
+      <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+    </h2>
+  </header> 
+  <div class="wrapper_left col">
+  <div class="dato mb-2"><i class="fas fa-calendar-alt"></i> {{ date }}</div>
+  {{ content.field_body2 }}
+  <a class="btn btn-primary" href="{{ url }}">Læs mere</a>  
+  </div>
+  <div class="wrapper_right col-md-5 mt-4 mt-md-0">
+    {{ content.field_foto }}
+  </div>
 </article>

@@ -1,2 +1,1 @@
-// Collapse the navbar when page is scrolled
-!function(t,o){t(function(){t('[data-toggle="tooltip"]').tooltip()})}(jQuery,Drupal);
+!function(o,t,n){o('[data-toggle="tooltip"]').tooltip("show"),t.AjaxCommands.prototype.actionLinkFlash=function(o,t,n){console.log("tesing")}}(jQuery,Drupal);

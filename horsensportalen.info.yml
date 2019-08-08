@@ -8,6 +8,11 @@ libraries:
 - horsensportalen/bootstrap-cdn
 - horsensportalen/global-styling
 
+libraries-override:
+  flag.link_ajax:
+    js:
+      js/flag-action_link_flash.js: js/flag-action_link_flash.js
+
 regions:
  driftmeddelelser: 'Driftmeddelelser'
  navigation: 'Navigation'

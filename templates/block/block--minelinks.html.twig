@@ -40,11 +40,11 @@
 <div{{ attributes.addClass(classes) }}>
   {{ title_prefix }}
   {% if label %}
-    <h4{{ title_attributes.addClass('text-break border-bottom pb-2 border-top pt-2 mb-1') }}>{{ label }}</h4>
+    <h4{{ title_attributes.addClass('text-break border-bottom pb-2 border-top pt-2 mb-1') }}> <i class="fas fa-link mr-2"></i>{{ label }}</h4>
   {% endif %}
   {{ title_suffix }}
   {% block content %}
-    <div{{ content_attributes.addClass('content') }}>
+    <div{{ content_attributes.addClass('content p-1') }}>
       {{ content }}
     </div>
   {% endblock %}

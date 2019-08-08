@@ -1,3 +1,8 @@
 .card {
 	word-wrap: normal;
+	border-radius: 0px;
+
+	.card-title {
+		padding-top: 10px;
+	}
 }
